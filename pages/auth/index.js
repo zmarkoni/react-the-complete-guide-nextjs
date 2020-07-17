@@ -19,6 +19,7 @@ const authIndexPage = (props) => {
 
 {
 	/* https://nextjs.org/docs/api-reference/data-fetching/getInitialProps
+	Initialization of PROPS before page is loaded
 	for fetching data and pass to application before initialization
 	can be used in Class based components as well 
 */
