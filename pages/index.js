@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Router from 'next/router';
 // We link only folders
+import Button from '../components/Button';
 
 const indexPage = () => (
 	<div>
@@ -13,6 +14,7 @@ const indexPage = () => (
 			</Link>
 		</p>
 		<button onClick={() => Router.push('/auth')}>Go to Auth</button>
+		<Button>Error button</Button>
 	</div>
 );
 

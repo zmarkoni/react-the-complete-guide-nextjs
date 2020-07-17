@@ -5,6 +5,7 @@ import User from '../../components/User';
 // we get codespliting out the box
 // routing
 // just use pages for containers and than we have components folder
+// styling is different
 
 const authIndexPage = () => (
 	<div>
